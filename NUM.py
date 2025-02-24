@@ -14,5 +14,5 @@ while userinput != num:
         if userinput == num:
                 print('you guessed it!')
                 break
-    except ValueError:
-        print('please enter a number')
+    except ValueError: #錯誤處理
+        print('please enter number')
